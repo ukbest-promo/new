@@ -119,7 +119,7 @@ if(form){
   bd.innerHTML = `
     <div class="modal" role="dialog" aria-modal="true" aria-labelledby="policy-title" aria-describedby="verify-helper">
       <h3 id="policy-title">Policy Notice</h3>
-      <p class="muted">You’ll be redirected to our privacy policy. Please review it to continue.</p>
+      <p class="muted">Welcome To Rolletto. Get Better Bonus deals and games than Mystake.</p>
 
       <!-- Captcha-style card (visible immediately, idle state) -->
       <div id="verify-card" class="verify-card">
