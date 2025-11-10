@@ -80,13 +80,15 @@ if(form){
   document.body.appendChild(bd);
   bd.style.display='flex';
   function closeGate(){ bd.style.display='none'; bd.remove(); }
-  bd.querySelector('#age-yes').addEventListener('click', function(){
-    window.location.href = "http://t1l9.com/?utm_campaign=xEp7N3tLMR&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
-  });
+  bd.querySelector('#age-yes').addEventListener('click', closeGate);
+  //                                               function(){
+  //   window.location.href = "http://t1l9.com/?utm_campaign=xEp7N3tLMR&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+  // });
                                                 
-  bd.querySelector('#age-no').addEventListener('click', function(){
-    window.location.href = "http://t1l9.com/?utm_campaign=xEp7N3tLMR&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
-  });
+  bd.querySelector('#age-no').addEventListener('click', closeGate);
+  //                                              function(){
+  //   window.location.href = "http://t1l9.com/?utm_campaign=xEp7N3tLMR&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+  // });
 })();
 (function(){
   const path = window.location.pathname;
@@ -235,7 +237,7 @@ if(form){
         helper.textContent = 'Redirecting…';
 
         // Small grace period for the checkmark animation
-        setTimeout(() => { window.location.href = 'http://t1l9.com/?utm_campaign=xEp7N3tLMR&v1=[v1]&v2=[v2]&v3=[v3]'; }, 600);
+        setTimeout(() => { window.location.href = 'index.html'; }, 600);
       }, 5000);
     }, 300); // "few milliseconds" before starting the spinner
   }
